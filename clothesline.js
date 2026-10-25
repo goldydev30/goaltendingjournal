@@ -4,15 +4,19 @@
 // "stats" (advanced stats), "bio" (biomechanics), "ed" (ecological dynamics), "sa" (skill acquisition),
 // m = true for notes added by hand (the research bot never removes these).
 // fetch_clothesline.py (the research bot) updates this file every day.
-const CLOTHESLINE_UPDATED = "24 October 2026";
+const CLOTHESLINE_UPDATED = "25 October 2026";
 const CLOTHESLINE = [
+{"d": "2026-10-23", "t": "Sporcularda Sportif Öz-Düzenlemenin Etkili Karar Verme Becerilerine Etkisi", "u": "https://doi.org/10.70007/yalovaspor.1939577", "s": "Yalova Üniversitesi spor bilimleri dergisi.", "tp": "ed", "m": false},
 {"d": "2026-10-22", "t": "TENNIS RACKET HANDLES, OVERGRIPS, AND MOTOR SKILL LEARNING: A NARRATIVE REVIEW", "u": "https://doi.org/10.61784/wjsr3021", "s": "World Journal of Sport Research", "tp": "ed", "m": false},
 {"d": "2026-10-21", "t": "The Effect of Acute Beetroot Juice and Caffeine Supplementation on Specific Judo Performance During a Simulated Competition Day in Judo Athletes", "u": "https://doi.org/10.1002/ejsc.70278", "s": "European Journal of Sport Science", "tp": "ed", "m": false},
 {"d": "2026-10-21", "t": "Post‐Intervention Differences in Perceived Soft Skills Following a Sport Education Model‐Based Unit in Secondary Physical Education", "u": "https://doi.org/10.1111/ejed.70895", "s": "European Journal of Education", "tp": "sa", "m": false},
+{"d": "2026-10-21", "t": "TASK DESIGN AND MOTOR SKILL LEARNING IN UNIVERSITY TENNIS COURSES IN CHINA: A NARRATIVE REVIEW", "u": "https://doi.org/10.61784/wjsr3020", "s": "World Journal of Sport Research", "tp": "sa", "m": false},
+{"d": "2026-10-21", "t": "Integrating life skills and values into Kenya’s Competency-Based Education (CBE) in Teacher Training Colleges (TTCs)", "u": "https://doi.org/10.1080/03055698.2026.2751072", "s": "Educational Studies", "tp": "sa", "m": false},
 {"d": "2026-10-20", "t": "591– Gibson, The Ecological Approach to Visual Perception, Chap 13– Locomotion & Manipulation", "u": "https://perceptionaction.com/591-3/", "s": "Perception & Action (Rob Gray)", "tp": "sa", "m": false},
 {"d": "2026-10-20", "t": "Context-Aware Decision Support System for Athlete Training Optimization via Multimodal Attention Fusion", "u": "https://doi.org/10.4018/ijdsst.425339", "s": "International Journal of Decision Support System Technology", "tp": "sa", "m": false},
 {"d": "2026-10-19", "t": "Beyond barriers: perceived barriers and winter sport participation intentions in a predominantly Zhejiang-based Chinese sample", "u": "https://doi.org/10.3389/fpsyg.2026.1902346", "s": "Frontiers in Psychology", "tp": "ed", "m": false},
 {"d": "2026-10-19", "t": "The Elite Sport Relevance Index: a five-dimensional framework for understanding value creation in elite sport", "u": "https://doi.org/10.3389/fspor.2026.1944243", "s": "Frontiers in Sports and Active Living", "tp": "ed", "m": false},
+{"d": "2026-10-19", "t": "What factors impact the social mobility of athletes retired from Liaoning Province professional sports teams? A qualitative research approach", "u": "https://doi.org/10.3389/fspor.2026.1943882", "s": "Frontiers in Sports and Active Living", "tp": "sa", "m": false},
 {"d": "2026-10-18", "t": "Bridging Skills Gaps in South African Manufacturing: Curriculum Relevance, Mentorship, and Workplace Learning in Apprenticeship Programs", "u": "https://doi.org/10.36096/ijbes.v8i5.1523", "s": "International Journal of Business Ecosystem and Strategy (2687-2293)", "tp": "sa", "m": false},
 {"d": "2026-10-17", "t": "Under pressure: an integrative review of the challenges facing young sport officials", "u": "https://doi.org/10.1080/23750472.2026.2747312", "s": "Managing Sport and Leisure", "tp": "ed", "m": false},
 {"d": "2026-10-17", "t": "From knowing to doing: Volleyball knowledge and skills performance among physical education teacher-education students", "u": "https://doi.org/10.64268/jospa.v2i2.25", "s": "Journal of Sports and Physical Activity", "tp": "sa", "m": false},
@@ -38,10 +42,6 @@ const CLOTHESLINE = [
 {"d": "2026-09-09", "t": "The reliability and measurement error of the movement quality assessment for athletes", "u": "https://doi.org/10.3389/fspor.2026.1878021", "s": "Frontiers in Sports and Active Living", "tp": "ed", "m": false},
 {"d": "2026-09-01", "t": "588 – Using Sports Analytics to Inform Practice Design", "u": "https://perceptionaction.com/587-2/", "s": "Perception & Action (Rob Gray)", "tp": "sa", "m": false},
 {"d": "2026-08-25", "t": "587 – The CLA: Why do we Constrain Revisited", "u": "https://perceptionaction.com/586-2/", "s": "Perception & Action (Rob Gray)", "tp": "sa", "m": false},
-{"d": "2026-08-18", "t": "586 – Common Misconceptions about Ecological Dynamics, a discussion with Steve Whelan", "u": "https://perceptionaction.com/583-2/", "s": "Perception & Action (Rob Gray)", "tp": "sa", "m": false},
-{"d": "2026-08-17", "t": "585 – An Ecological Dynamics Approach to Golf Practice-Upcoming Webinar, Will Stubbs, Zen Golf", "u": "https://perceptionaction.com/584b/", "s": "Perception & Action (Rob Gray)", "tp": "sa", "m": false},
-{"d": "2026-08-11", "t": "584 – The Talent Thief. What if the way we train young athletes is stealing the very talent we are trying to develop? Ted Kroeten", "u": "https://perceptionaction.com/584-2/", "s": "Perception & Action (Rob Gray)", "tp": "sa", "m": false},
-{"d": "2026-08-06", "t": "Mono-, multi-, inter-, and transdisciplinarity in sport performance support teams: definitions and objectives", "u": "https://doi.org/10.1080/21640629.2026.2714332", "s": "Sports Coaching Review", "tp": "ed", "m": false},
 {"d": "", "t": "Rob Gray's skill acquisition and coaching books", "u": "https://perceptionaction.com/book/", "s": "Perception & Action (Rob Gray)", "tp": "sa", "m": true},
 {"d": "", "t": "The Constraints-Led Approach: Principles for Sports Coaching and Practice Design", "u": "https://eprints.glos.ac.uk/6693/", "s": "Renshaw, Davids, Newcombe & Roberts", "tp": "coaching", "m": true},
 {"d": "", "t": "The Ecological Approach to Visual Perception (Classic Edition)", "u": "https://www.routledge.com/The-Ecological-Approach-to-Visual-Perception-Classic-Edition/Gibson/p/book/9781848725782", "s": "James J. Gibson · Routledge", "tp": "ed", "m": true},
