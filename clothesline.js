@@ -4,8 +4,9 @@
 // "stats" (advanced stats), "bio" (biomechanics), "ed" (ecological dynamics), "sa" (skill acquisition),
 // m = true for notes added by hand (the research bot never removes these).
 // fetch_clothesline.py (the research bot) updates this file every day.
-const CLOTHESLINE_UPDATED = "25 October 2026";
+const CLOTHESLINE_UPDATED = "26 October 2026";
 const CLOTHESLINE = [
+{"d": "2026-10-26", "t": "Coachingdynamiek in prestatiegerichte teamsport: Een seizoensbreed perspectief op coachleiderschap in het Belgische nationale herenvolleybal", "u": "https://lirias.kuleuven.be/handle/20.500.12942/795732", "s": "Lirias (KU Leuven)", "tp": "ed", "m": false},
 {"d": "2026-10-23", "t": "Sporcularda Sportif Öz-Düzenlemenin Etkili Karar Verme Becerilerine Etkisi", "u": "https://doi.org/10.70007/yalovaspor.1939577", "s": "Yalova Üniversitesi spor bilimleri dergisi.", "tp": "ed", "m": false},
 {"d": "2026-10-22", "t": "TENNIS RACKET HANDLES, OVERGRIPS, AND MOTOR SKILL LEARNING: A NARRATIVE REVIEW", "u": "https://doi.org/10.61784/wjsr3021", "s": "World Journal of Sport Research", "tp": "ed", "m": false},
 {"d": "2026-10-21", "t": "The Effect of Acute Beetroot Juice and Caffeine Supplementation on Specific Judo Performance During a Simulated Competition Day in Judo Athletes", "u": "https://doi.org/10.1002/ejsc.70278", "s": "European Journal of Sport Science", "tp": "ed", "m": false},
@@ -41,7 +42,6 @@ const CLOTHESLINE = [
 {"d": "2026-09-10", "t": "Association between athletic movement quality and physical fitness in adolescent athletes", "u": "https://doi.org/10.1177/17479541261485520", "s": "International Journal of Sports Science & Coaching", "tp": "ed", "m": false},
 {"d": "2026-09-09", "t": "The reliability and measurement error of the movement quality assessment for athletes", "u": "https://doi.org/10.3389/fspor.2026.1878021", "s": "Frontiers in Sports and Active Living", "tp": "ed", "m": false},
 {"d": "2026-09-01", "t": "588 – Using Sports Analytics to Inform Practice Design", "u": "https://perceptionaction.com/587-2/", "s": "Perception & Action (Rob Gray)", "tp": "sa", "m": false},
-{"d": "2026-08-25", "t": "587 – The CLA: Why do we Constrain Revisited", "u": "https://perceptionaction.com/586-2/", "s": "Perception & Action (Rob Gray)", "tp": "sa", "m": false},
 {"d": "", "t": "Rob Gray's skill acquisition and coaching books", "u": "https://perceptionaction.com/book/", "s": "Perception & Action (Rob Gray)", "tp": "sa", "m": true},
 {"d": "", "t": "The Constraints-Led Approach: Principles for Sports Coaching and Practice Design", "u": "https://eprints.glos.ac.uk/6693/", "s": "Renshaw, Davids, Newcombe & Roberts", "tp": "coaching", "m": true},
 {"d": "", "t": "The Ecological Approach to Visual Perception (Classic Edition)", "u": "https://www.routledge.com/The-Ecological-Approach-to-Visual-Perception-Classic-Edition/Gibson/p/book/9781848725782", "s": "James J. Gibson · Routledge", "tp": "ed", "m": true},
